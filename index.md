@@ -1,37 +1,58 @@
-## Welcome to GitHub Pages
-
-You can use the [editor on GitHub](https://github.com/lonier4/C.Temple-Portfolio/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/lonier4/C.Temple-Portfolio/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Hind+Vadodara&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div>
+            <ul class="navbar">
+                <li><a href="default.asp">Home</a></li>
+                <li><a href="news.asp">Molly</a></li> 
+                <li><a href="about.asp">Things I Dislike</a></li>
+                <li><a href="contact.asp">Contact</a></li>
+              </ul>
+            <h1>Andre Yeargins</h1>
+        </div>
+        <hr>
+        <br>
+        <div>
+            <img alt="Pic of me" src="images/me.jpeg" style="width:200px; height:250px;">
+            <p>Financial professional with an Achilles heel for Skittles. Big on playing sports however not watching them.
+                You can catch me trading stocks or going to the gym on any given day just dont ask me to run a marathon! 
+                I can thank the show "Mr. Robot" for sparking that first interest which evolved into me wanting to become 
+                a developer because I want the power to create whatever website or project I want.
+            </p>
+        </div>
+        <div class="molly">
+            <img alt="My snake Molly" src="images/molly.jpg" style="width:350px; height:280px;">
+            <p>No four legged friends for me but I do have something to tip the <q>scales.</q>
+                You can follow her every tweet on her <a href="https://twitter.com/CantaloupesD" target="_blank">
+                Twitter account.</a> If that'smus not your style then you can<a href="https://google.com" target="_blank"> google some puppy pics.</a></p>
+        </div>
+        <br>
+        <div>
+            <h3>Things I Don't Like</h5>
+            <ul>
+                <li>Mushrooms</li>
+                <li>Moving</li>
+                <li>Black Olives</li>
+            </ul>
+            <br>
+        </div>
+        <br>
+        Have an idea you want to launch? 
+        I can help...fill out the form below for inquiries!
+        <form>
+            <label for="fname">First name:</label><br>
+            <input type="text" id="fname" name="fname"><br>
+            <label for="lname">Last name:</label><br>
+            <input type="text" id="lname" name="lname"><br><br>
+            <textarea name="message" rows="20" cols="40"></textarea>
+            <input type="submit" value="Submit">
+        </form>
+    </body>
+</html>
